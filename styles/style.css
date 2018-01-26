@@ -33,6 +33,9 @@ header {
   -ms-flex-align: center;
   align-items: center; }
 
+.title {
+  padding: 150px 0; }
+
 .mainNav .fa {
   padding: 10px;
   font-size: 14px; }
@@ -58,6 +61,146 @@ header button {
   text-transform: uppercase;
   display: block;
   margin: 0 auto; }
+
+.interiorPlants h5 {
+  font-size: 18px;
+  color: #a8edea;
+  text-align: center;
+  margin-bottom: 5px; }
+
+.interiorPlants h2 {
+  text-align: center;
+  color: #1e1e2a;
+  font-size: 36px;
+  margin-top: 5px; }
+
+.interiorPlants p {
+  text-align: center;
+  font-size: 14px;
+  color: #888890; }
+
+.interiorPlants .signature span {
+  font-size: 16px;
+  font-style: bold;
+  color: #1e1e2a; }
+
+.galleryContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .galleryContainer .imgContainer {
+    width: 25%; }
+  .galleryContainer img {
+    width: 100%; }
+
+.products h2 {
+  font-size: 36px;
+  color: #1a1a26;
+  text-align: center; }
+
+.products .popularProducts {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.products li {
+  list-style: none;
+  margin: 0 35px; }
+  .products li :hover, .products li :focus {
+    border-bottom: 2px solid #1a1a26;
+    color: #888890; }
+
+.products a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1a1a26; }
+
+.productsGallery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .productsGallery .galleryItem {
+    width: 18%; }
+  .productsGallery img {
+    width: 100%; }
+  .productsGallery figcaption {
+    font-size: 12px;
+    text-align: center; }
+  .productsGallery .price {
+    text-align: center;
+    margin-bottom: 30px; }
+
+.customerSaying {
+  background-color: #dddfed;
+  width: 50%;
+  padding: 80px; }
+  .customerSaying h2 {
+    font-size: 36px;
+    color: #1a1a26;
+    text-align: center;
+    font-weight: normal; }
+  .customerSaying .pinkQuotes {
+    width: 100%; }
+    .customerSaying .pinkQuotes img {
+      display: block;
+      margin: 0 auto; }
+  .customerSaying p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    color: #1a1a26; }
+  .customerSaying .signature {
+    font-style: normal;
+    color: #888890;
+    text-transform: uppercase; }
+
+.fullBleed {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.video {
+  background-image: url(../styles/images/flowerBackground.jpg);
+  width: 50%; }
+
+.blog h2 {
+  color: #1a1a26;
+  font-size: 36px;
+  text-align: center; }
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .container .blogItem {
+    width: 30%; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -197,5 +340,5 @@ body {
   font-family: "poppins"; }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 80%;
   margin: 0 auto; }

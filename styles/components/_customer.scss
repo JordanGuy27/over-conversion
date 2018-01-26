@@ -1,0 +1,40 @@
+.customerSaying {
+    background-color: #dddfed;
+    width: 50%;
+    padding: 80px;
+    h2 {
+        font-size: 36px;
+        color: #1a1a26;
+        text-align: center;
+        font-weight: normal;
+    }
+    .pinkQuotes {
+        width: 100%;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        font-style: italic;
+        color: #1a1a26;
+    }
+    .signature {
+        font-style: normal;
+        color: #888890;
+        text-transform: uppercase;
+    }
+}
+
+.fullBleed {
+    width: 100%;
+    display: flex;
+}
+
+.video {
+    background-image: url(../styles/images/flowerBackground.jpg);
+    width: 50%;    
+}

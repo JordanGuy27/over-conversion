@@ -14,7 +14,7 @@ header {
             display: inline-block;
             text-transform: uppercase;
             :hover {
-                color: #888890
+                color: #888890;
             }
             a {
                 text-decoration: none;
@@ -29,6 +29,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.title {
+    padding: 150px 0; 
 }
 
 .mainNav .fa {

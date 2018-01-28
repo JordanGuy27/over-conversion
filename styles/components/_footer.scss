@@ -1,0 +1,76 @@
+.overInfo {
+    padding: 40px 0;
+    width: 50%;
+    p {
+        color: #888890;
+        font-size: 14px;
+        line-height: 24px;
+        span {
+            color: #1a1a26;
+            font-weight: bold;
+        }
+    }
+}
+
+.services, .account, .instagram {
+    width: 15%;
+    h4{
+        font-size: 24px;
+        color: #1a1a26;
+    }
+    .servicesList, .accountList {
+        padding: 0;
+        li {
+            list-style: none;
+            line-height: 40px;
+            a {
+                text-decoration: none;
+                color: #888890;
+            }
+        }
+    }
+}
+
+.footerAwesome {
+    color: #888890;
+    font-size: 25px;
+    .fa {
+        margin-right: 10px;
+    }
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagramContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.instagramItem {
+    width: 32%;
+    img {
+        width: 100%;
+    }
+}
+
+.visa {
+    margin: 20px 0;
+    img {
+        margin-right: 20px;
+    }
+}
+
+.postFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #888890;
+    span {
+        color: #1a1a26;
+    }
+}

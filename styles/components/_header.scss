@@ -25,10 +25,19 @@ header {
         }
 }
 
+.mainNavItem {
+    width: 40%;
+}
+
+.mainRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .flexHeader {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 .title {
@@ -63,4 +72,8 @@ header button {
     text-transform: uppercase;
     display: block;
     margin: 0 auto;
+}
+
+button:hover {
+    background-color: #e4565d;
 }

@@ -19,19 +19,32 @@ header {
       color: #1a1a26;
       font-size: 14px; }
 
+.mainNavItem {
+  width: 40%; }
+
+.mainRight {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
 .flexHeader {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .title {
   padding: 150px 0; }
@@ -61,6 +74,88 @@ header button {
   text-transform: uppercase;
   display: block;
   margin: 0 auto; }
+
+button:hover {
+  background-color: #e4565d; }
+
+.overInfo {
+  padding: 40px 0;
+  width: 50%; }
+  .overInfo p {
+    color: #888890;
+    font-size: 14px;
+    line-height: 24px; }
+    .overInfo p span {
+      color: #1a1a26;
+      font-weight: bold; }
+
+.services, .account, .instagram {
+  width: 15%; }
+  .services h4, .account h4, .instagram h4 {
+    font-size: 24px;
+    color: #1a1a26; }
+  .services .servicesList, .services .accountList, .account .servicesList, .account .accountList, .instagram .servicesList, .instagram .accountList {
+    padding: 0; }
+    .services .servicesList li, .services .accountList li, .account .servicesList li, .account .accountList li, .instagram .servicesList li, .instagram .accountList li {
+      list-style: none;
+      line-height: 40px; }
+      .services .servicesList li a, .services .accountList li a, .account .servicesList li a, .account .accountList li a, .instagram .servicesList li a, .instagram .accountList li a {
+        text-decoration: none;
+        color: #888890; }
+
+.footerAwesome {
+  color: #888890;
+  font-size: 25px; }
+  .footerAwesome .fa {
+    margin-right: 10px; }
+
+.footerContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.instagramContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.instagramItem {
+  width: 32%; }
+  .instagramItem img {
+    width: 100%; }
+
+.visa {
+  margin: 20px 0; }
+  .visa img {
+    margin-right: 20px; }
+
+.postFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #888890; }
+  .postFooter span {
+    color: #1a1a26; }
 
 .interiorPlants h5 {
   font-size: 18px;
@@ -97,33 +192,33 @@ header button {
   .galleryContainer img {
     width: 100%; }
 
-.products h2 {
-  font-size: 36px;
-  color: #1a1a26;
-  text-align: center; }
-
-.products .popularProducts {
-  padding-left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.products li {
-  list-style: none;
-  margin: 0 35px; }
-  .products li :hover, .products li :focus {
-    border-bottom: 2px solid #1a1a26;
-    color: #888890; }
-
-.products a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #1a1a26; }
+.products {
+  padding: 60px 0; }
+  .products h2 {
+    font-size: 36px;
+    color: #1a1a26;
+    text-align: center; }
+  .products .popularProducts {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .products li {
+    list-style: none;
+    margin: 0 35px;
+    margin-bottom: 20px; }
+    .products li :hover, .products li :focus {
+      border-bottom: 2px solid #1a1a26;
+      color: #888890; }
+  .products a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a1a26; }
 
 .productsGallery {
   display: -webkit-box;
@@ -146,7 +241,10 @@ header button {
     text-align: center; }
   .productsGallery .price {
     text-align: center;
-    margin-bottom: 30px; }
+    padding-bottom: 20px;
+    margin: 10px; }
+    .productsGallery .price span {
+      margin-left: 20px; }
 
 .customerSaying {
   background-color: #dddfed;
@@ -184,10 +282,13 @@ header button {
   background-image: url(../styles/images/flowerBackground.jpg);
   width: 50%; }
 
-.blog h2 {
-  color: #1a1a26;
-  font-size: 36px;
-  text-align: center; }
+.blog {
+  padding: 60px 0; }
+  .blog h2 {
+    color: #1a1a26;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px; }
 
 .container {
   width: 100%;
@@ -201,6 +302,66 @@ header button {
   justify-content: space-between; }
   .container .blogItem {
     width: 30%; }
+    .container .blogItem figcaption {
+      font-size: 14px;
+      color: #888890;
+      padding-top: 10px; }
+    .container .blogItem h5 {
+      color: #1a1a26;
+      font-size: 18px;
+      margin: 10px 0; }
+    .container .blogItem a {
+      padding-top: 10px;
+      color: #1a1a26;
+      text-decoration: none;
+      border-bottom: 2px solid #1a1a26; }
+
+.newsletter h2 {
+  font-size: 36px;
+  color: #1a1a26;
+  text-align: center; }
+
+.newsletter p {
+  text-align: center;
+  color: #888890;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto; }
+
+.newsletter .email {
+  position: relative;
+  width: 100%;
+  margin: 30px 0; }
+  .newsletter .email input {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin: 0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+  .newsletter .email button.envelope {
+    position: absolute;
+    right: 19.5%;
+    border: none;
+    background-color: #fff; }
+
+.brands {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 50px 0; }
+
+.brandsItem {
+  min-height: 97px; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }

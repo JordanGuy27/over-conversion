@@ -1,5 +1,6 @@
 header {
-  background: url(../styles/images/hero.jpg); }
+  background-image: url(../styles/images/hero.jpg);
+  min-height: 87vh; }
 
 .mainNav {
   background-color: #fff;
@@ -31,6 +32,15 @@ header {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
+
+.mainLeft {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .flexHeader {
   display: -webkit-box;
@@ -89,8 +99,15 @@ button:hover {
       color: #1a1a26;
       font-weight: bold; }
 
+p.description {
+  margin-top: 35px;
+  line-height: 26px;
+  font-size: 14px;
+  margin-bottom: 50px; }
+
 .services, .account, .instagram {
-  width: 15%; }
+  width: 20%;
+  font-size: 14px; }
   .services h4, .account h4, .instagram h4 {
     font-size: 24px;
     color: #1a1a26; }
@@ -133,6 +150,9 @@ button:hover {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
+.instagram {
+  margin-bottom: 20px; }
+
 .instagramItem {
   width: 32%; }
   .instagramItem img {
@@ -141,7 +161,8 @@ button:hover {
 .visa {
   margin: 20px 0; }
   .visa img {
-    margin-right: 20px; }
+    width: 15%;
+    margin: 0 2px; }
 
 .postFooter {
   width: 100%;
@@ -153,44 +174,85 @@ button:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  color: #888890; }
+  color: #888890;
+  font-size: 14px; }
   .postFooter span {
     color: #1a1a26; }
 
-.interiorPlants h5 {
-  font-size: 18px;
-  color: #a8edea;
-  text-align: center;
-  margin-bottom: 5px; }
+.trademark p {
+  margin-left: 10px; }
 
-.interiorPlants h2 {
-  text-align: center;
-  color: #1e1e2a;
-  font-size: 36px;
-  margin-top: 5px; }
-
-.interiorPlants p {
-  text-align: center;
-  font-size: 14px;
-  color: #888890; }
-
-.interiorPlants .signature span {
-  font-size: 16px;
-  font-style: bold;
-  color: #1e1e2a; }
+.interiorPlants {
+  padding: 40px 0; }
+  .interiorPlants h5 {
+    font-size: 18px;
+    color: #a8edea;
+    text-align: center;
+    margin-bottom: 5px; }
+  .interiorPlants h2 {
+    text-align: center;
+    color: #1e1e2a;
+    font-size: 36px;
+    margin-top: 5px; }
+  .interiorPlants p {
+    text-align: center;
+    font-size: 14px;
+    color: #888890;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 24px; }
+  .interiorPlants .signature {
+    padding: 20px 0; }
+    .interiorPlants .signature span {
+      font-size: 16px;
+      font-style: bold;
+      color: #1e1e2a; }
 
 .galleryContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .galleryContainer .imgContainer {
-    width: 25%; }
-  .galleryContainer img {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.tripleContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.plantContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .plantContainer img {
     width: 100%; }
+
+.imageContainer {
+  width: 48%; }
+
+.imageContainer2 {
+  width: 100%; }
+
+.cactusContainer {
+  margin-right: 30px; }
 
 .products {
   padding: 60px 0; }
@@ -244,17 +306,20 @@ button:hover {
     padding-bottom: 20px;
     margin: 10px; }
     .productsGallery .price span {
-      margin-left: 20px; }
+      margin-left: 20px;
+      color: #888890;
+      text-decoration: line-through; }
 
 .customerSaying {
-  background-color: #dddfed;
+  background-image: url(../styles/images/customerBackground.png);
   width: 50%;
-  padding: 80px; }
+  padding: 40px 80px; }
   .customerSaying h2 {
     font-size: 36px;
     color: #1a1a26;
     text-align: center;
-    font-weight: normal; }
+    font-weight: normal;
+    margin-bottom: 15px; }
   .customerSaying .pinkQuotes {
     width: 100%; }
     .customerSaying .pinkQuotes img {
@@ -270,6 +335,21 @@ button:hover {
     font-style: normal;
     color: #888890;
     text-transform: uppercase; }
+  .customerSaying .dotContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 20px 0; }
+    .customerSaying .dotContainer img {
+      width: 10%; }
+      .customerSaying .dotContainer img .big {
+        width: 100%; }
 
 .fullBleed {
   width: 100%;
@@ -280,7 +360,8 @@ button:hover {
 
 .video {
   background-image: url(../styles/images/flowerBackground.jpg);
-  width: 50%; }
+  width: 50%;
+  background-repeat: no-repeat; }
 
 .blog {
   padding: 60px 0; }
@@ -326,7 +407,9 @@ button:hover {
   color: #888890;
   text-align: center;
   width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 20px;
+  line-height: 24px; }
 
 .newsletter .email {
   position: relative;
@@ -358,10 +441,628 @@ button:hover {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 50px 0; }
+  margin: 80px 0; }
 
 .brandsItem {
   min-height: 97px; }
+
+header {
+  background-image: url(../styles/images/hero.jpg);
+  min-height: 87vh; }
+
+.mainNav {
+  background-color: #fff;
+  width: 100%;
+  margin: 20px 0; }
+  .mainNav ul {
+    padding-left: 0; }
+  .mainNav li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase; }
+    .mainNav li :hover {
+      color: #888890; }
+    .mainNav li a {
+      text-decoration: none;
+      padding: 10px;
+      color: #1a1a26;
+      font-size: 14px; }
+
+.mainNavItem {
+  width: 40%; }
+
+.mainRight {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.mainLeft {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flexHeader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.title {
+  padding: 150px 0; }
+
+.mainNav .fa {
+  padding: 10px;
+  font-size: 14px; }
+
+header h3 {
+  color: #888890;
+  font-size: 32px;
+  line-height: 60px;
+  font-weight: normal;
+  text-align: center; }
+
+header h1 {
+  color: #1d1d29;
+  font-size: 60px;
+  text-align: center; }
+
+header button {
+  background-color: #f07f84;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto; }
+
+button:hover {
+  background-color: #e4565d; }
+
+.overInfo {
+  padding: 40px 0;
+  width: 50%; }
+  .overInfo p {
+    color: #888890;
+    font-size: 14px;
+    line-height: 24px; }
+    .overInfo p span {
+      color: #1a1a26;
+      font-weight: bold; }
+
+p.description {
+  margin-top: 35px;
+  line-height: 26px;
+  font-size: 14px;
+  margin-bottom: 50px; }
+
+.services, .account, .instagram {
+  width: 20%;
+  font-size: 14px; }
+  .services h4, .account h4, .instagram h4 {
+    font-size: 24px;
+    color: #1a1a26; }
+  .services .servicesList, .services .accountList, .account .servicesList, .account .accountList, .instagram .servicesList, .instagram .accountList {
+    padding: 0; }
+    .services .servicesList li, .services .accountList li, .account .servicesList li, .account .accountList li, .instagram .servicesList li, .instagram .accountList li {
+      list-style: none;
+      line-height: 40px; }
+      .services .servicesList li a, .services .accountList li a, .account .servicesList li a, .account .accountList li a, .instagram .servicesList li a, .instagram .accountList li a {
+        text-decoration: none;
+        color: #888890; }
+
+.footerAwesome {
+  color: #888890;
+  font-size: 25px; }
+  .footerAwesome .fa {
+    margin-right: 10px; }
+
+.footerContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.instagramContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.instagram {
+  margin-bottom: 20px; }
+
+.instagramItem {
+  width: 32%; }
+  .instagramItem img {
+    width: 100%; }
+
+.visa {
+  margin: 20px 0; }
+  .visa img {
+    width: 15%;
+    margin: 0 2px; }
+
+.postFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #888890;
+  font-size: 14px; }
+  .postFooter span {
+    color: #1a1a26; }
+
+.trademark p {
+  margin-left: 10px; }
+
+.interiorPlants {
+  padding: 40px 0; }
+  .interiorPlants h5 {
+    font-size: 18px;
+    color: #a8edea;
+    text-align: center;
+    margin-bottom: 5px; }
+  .interiorPlants h2 {
+    text-align: center;
+    color: #1e1e2a;
+    font-size: 36px;
+    margin-top: 5px; }
+  .interiorPlants p {
+    text-align: center;
+    font-size: 14px;
+    color: #888890;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 24px; }
+  .interiorPlants .signature {
+    padding: 20px 0; }
+    .interiorPlants .signature span {
+      font-size: 16px;
+      font-style: bold;
+      color: #1e1e2a; }
+
+.galleryContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.tripleContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.plantContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .plantContainer img {
+    width: 100%; }
+
+.imageContainer {
+  width: 48%; }
+
+.imageContainer2 {
+  width: 100%; }
+
+.cactusContainer {
+  margin-right: 30px; }
+
+.products {
+  padding: 60px 0; }
+  .products h2 {
+    font-size: 36px;
+    color: #1a1a26;
+    text-align: center; }
+  .products .popularProducts {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .products li {
+    list-style: none;
+    margin: 0 35px;
+    margin-bottom: 20px; }
+    .products li :hover, .products li :focus {
+      border-bottom: 2px solid #1a1a26;
+      color: #888890; }
+  .products a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a1a26; }
+
+.productsGallery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .productsGallery .galleryItem {
+    width: 18%; }
+  .productsGallery img {
+    width: 100%; }
+  .productsGallery figcaption {
+    font-size: 12px;
+    text-align: center; }
+  .productsGallery .price {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px; }
+    .productsGallery .price span {
+      margin-left: 20px;
+      color: #888890;
+      text-decoration: line-through; }
+
+.customerSaying {
+  background-image: url(../styles/images/customerBackground.png);
+  width: 50%;
+  padding: 40px 80px; }
+  .customerSaying h2 {
+    font-size: 36px;
+    color: #1a1a26;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px; }
+  .customerSaying .pinkQuotes {
+    width: 100%; }
+    .customerSaying .pinkQuotes img {
+      display: block;
+      margin: 0 auto; }
+  .customerSaying p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    color: #1a1a26; }
+  .customerSaying .signature {
+    font-style: normal;
+    color: #888890;
+    text-transform: uppercase; }
+  .customerSaying .dotContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 20px 0; }
+    .customerSaying .dotContainer img {
+      width: 10%; }
+      .customerSaying .dotContainer img .big {
+        width: 100%; }
+
+.fullBleed {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.video {
+  background-image: url(../styles/images/flowerBackground.jpg);
+  width: 50%;
+  background-repeat: no-repeat; }
+
+.blog {
+  padding: 60px 0; }
+  .blog h2 {
+    color: #1a1a26;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px; }
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .container .blogItem {
+    width: 30%; }
+    .container .blogItem figcaption {
+      font-size: 14px;
+      color: #888890;
+      padding-top: 10px; }
+    .container .blogItem h5 {
+      color: #1a1a26;
+      font-size: 18px;
+      margin: 10px 0; }
+    .container .blogItem a {
+      padding-top: 10px;
+      color: #1a1a26;
+      text-decoration: none;
+      border-bottom: 2px solid #1a1a26; }
+
+.newsletter h2 {
+  font-size: 36px;
+  color: #1a1a26;
+  text-align: center; }
+
+.newsletter p {
+  text-align: center;
+  color: #888890;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  line-height: 24px; }
+
+.newsletter .email {
+  position: relative;
+  width: 100%;
+  margin: 30px 0; }
+  .newsletter .email input {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin: 0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+  .newsletter .email button.envelope {
+    position: absolute;
+    right: 19.5%;
+    border: none;
+    background-color: #fff; }
+
+.brands {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 80px 0; }
+
+.brandsItem {
+  min-height: 97px; }
+
+@media (max-width: 554px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+    .container .blogItem {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px; }
+  .brands {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+    .brands .brandsItem img.lastBrand {
+      min-width: 137px;
+      margin-top: 20px; } }
+
+@media (max-width: 705px) {
+  .mainLeft {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .mainRight {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+    .mainRight .fa {
+      font-size: 30px; } }
+
+@media (max-width: 845px) {
+  .galleryContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .galleryContainer .imageContainer {
+      width: 49%; }
+  .cactusContainer {
+    width: 100%; }
+    .cactusContainer img {
+      width: 100%; } }
+
+@media (max-width: 989px) {
+  .fullBleed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .video {
+    width: 100%; }
+  .customerSaying {
+    width: 100%; } }
+
+@media (max-width: 1030px) {
+  .productsGallery {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .productsGallery .galleryItem {
+      width: 30%; }
+  .postFooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%; }
+    .postFooter .tradeMark p {
+      margin-top: 0; }
+    .postFooter .trademarkItem p {
+      margin-bottom: 0; } }
+
+@media (max-width: 1223px) {
+  .galleryItem figcaption {
+    font-size: 10px; }
+  .galleryItem .price {
+    font-size: 10px; } }
+
+@media (max-width: 611px) {
+  .productsGallery {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+    .productsGallery .galleryItem {
+      width: 47%; }
+  .products li {
+    margin: 0 8px; }
+    .products li a {
+      font-size: 14px; } }
+
+@media (max-width: 1378px) {
+  .footerContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .footerContainer .overInfo {
+      width: 100%;
+      padding-bottom: 10px; }
+    .footerContainer .services, .footerContainer .account, .footerContainer .instagram {
+      width: 30%;
+      text-align: center; } }
+
+@media (max-width: 704px) {
+  .footerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .footerContainer .overInfo {
+      padding-bottom: 0; }
+    .footerContainer .services, .footerContainer .account {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%; }
+    .footerContainer .instagram {
+      margin: 0 auto;
+      text-align: center;
+      width: 60%; } }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -503,3 +1204,6 @@ body {
 .wrapper {
   max-width: 80%;
   margin: 0 auto; }
+
+img {
+  max-width: 100%; }

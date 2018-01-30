@@ -12,8 +12,16 @@
     }
 }
 
+p.description {
+            margin-top: 35px;
+            line-height: 26px;
+            font-size: 14px;
+            margin-bottom: 50px;
+        }
+
 .services, .account, .instagram {
-    width: 15%;
+    width: 20%;
+    font-size: 14px;
     h4{
         font-size: 24px;
         color: #1a1a26;
@@ -51,6 +59,10 @@
     flex-wrap: wrap;
 }
 
+.instagram {
+    margin-bottom: 20px;
+}
+
 .instagramItem {
     width: 32%;
     img {
@@ -61,7 +73,8 @@
 .visa {
     margin: 20px 0;
     img {
-        margin-right: 20px;
+        width: 15%;
+        margin: 0 2px;
     }
 }
 
@@ -70,7 +83,12 @@
     display: flex;
     justify-content: space-between;
     color: #888890;
+    font-size: 14px;
     span {
         color: #1a1a26;
     }
 }
+
+.trademark p {
+        margin-left: 10px;
+    }

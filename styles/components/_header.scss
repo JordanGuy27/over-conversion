@@ -1,5 +1,6 @@
 header {
-    background: url(../styles/images/hero.jpg);
+    background-image: url(../styles/images/hero.jpg);
+    min-height: 87vh;
 }
 
 .mainNav {
@@ -32,6 +33,11 @@ header {
 .mainRight {
     display: flex;
     justify-content: flex-end;
+}
+
+.mainLeft {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .flexHeader {

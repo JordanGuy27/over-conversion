@@ -1,4 +1,5 @@
 .interiorPlants {
+    padding: 40px 0;
     h5 {
         font-size: 18px;
         color: #a8edea;
@@ -16,21 +17,47 @@
         text-align: center;
         font-size: 14px;
         color: #888890;
+        width: 50%;
+        margin: 0 auto;
+        line-height: 24px;
     }
-    .signature span {
+    .signature {
+    padding: 20px 0;
+    span {
         font-size: 16px;
         font-style: bold;
         color: #1e1e2a;
     }
 }
+}
 
 .galleryContainer {
     display: flex;
-    flex-wrap: wrap;
-    .imgContainer {
-        width: 25%;
+    justify-content: space-between;
+}
+
+.tripleContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.plantContainer {
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 100%;
     }
-        img {
-            width: 100%;
-        }
+}
+
+.imageContainer {
+    width: 48%;
+}
+
+.imageContainer2 {
+    width: 100%;
+}
+
+.cactusContainer {
+    margin-right: 30px;
 }

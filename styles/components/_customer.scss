@@ -1,12 +1,13 @@
 .customerSaying {
-    background-color: #dddfed;
+    background-image: url(../styles/images/customerBackground.png);
     width: 50%;
-    padding: 80px;
+    padding: 40px 80px;
     h2 {
         font-size: 36px;
         color: #1a1a26;
         text-align: center;
         font-weight: normal;
+        margin-bottom: 15px;
     }
     .pinkQuotes {
         width: 100%;
@@ -27,6 +28,19 @@
         color: #888890;
         text-transform: uppercase;
     }
+    .dotContainer {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding: 20px 0;
+        img {
+            width: 10%;
+            .big {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .fullBleed {
@@ -36,5 +50,6 @@
 
 .video {
     background-image: url(../styles/images/flowerBackground.jpg);
-    width: 50%;    
+    width: 50%;   
+    background-repeat: no-repeat; 
 }

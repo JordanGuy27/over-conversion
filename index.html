@@ -37,21 +37,27 @@
             </div>
             <div class="mainNavItem">
                 <ul class="mainRight">
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-bars" aria-hidden="true"></i>
-                        </a>
-                    </li>
+                    <div class="iconsRight">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="iconsRight">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="iconsRight">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -74,17 +80,21 @@
             </section>
             <section class="imgGallery">
                 <div class="galleryContainer">
-                    <div class="imgContainer">
+                    <div class="cactusContainer">
                         <img src="styles/images/plants1.svg" alt="a cactus">
                     </div>
-                    <div class="imgContainer">
-                        <img src="styles/images/plants2.svg" alt="A hanging pot">
-                    </div>
-                    <div class="imgContainer">
-                        <img src="styles/images/plants3.svg" alt="">
-                    </div>
-                    <div class="imgContainer">
-                        <img src="styles/images/plants4.svg" alt="">
+                    <div class="tripleContainer">
+                        <div class="plantContainer">
+                            <div class="imageContainer">
+                                <img src="styles/images/plants2.svg" alt="A hanging pot">
+                            </div>
+                            <div class="imageContainer">
+                                <img src="styles/images/plants3.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="imageContainer2">
+                            <img src="styles/images/plants4.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -101,7 +111,7 @@
                 </nav>
                 <div class="productsGallery">
                     <figure class="galleryItem">
-                        <img src="styles/images/products1.svg" alt="">
+                        <img src="styles/images/products1.png" alt="">
                         <figcaption>Pebbled Backpack</figcaption>
                         <p class="price">$99.00</p>
                     </figure>
@@ -125,8 +135,6 @@
                         <figcaption>Zip Leather Jacket</figcaption>
                         <p class="price">$178.00 <span>$199.00</span></p>
                     </figure>
-                </div>
-                <div class="productsGallery">
                     <figure class="galleryItem">
                         <img src="styles/images/products6.svg" alt="">
                         <figcaption>Flower print dress</figcaption>
@@ -162,7 +170,12 @@
                 <div class="pinkQuotes"><img src="styles/images/pinkQuote.svg" alt=""></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reprehenderit dicta velit magni deleniti dolore tenetur fugit, totam blanditiis eveniet beatae illum odit ipsa expedita vitae? Ea ratione officiis corrupti.</p>
                 <p class="signature">Rosinante Brooke . Web Design</p>
-                <img src="" alt=""> <!-- bubble image -->
+                <div class="dotContainer">
+                    <img src="styles/images/bigDot.png" alt="">
+                    <img class="big" src="styles/images/smallDot.png" alt="">
+                    <img src="styles/images/bigDot.png" alt="">
+                    <img src="styles/images/bigDot.png" alt="">
+                </div>
             </div>
             <div class="video">
                 <!-- insert video file? -->
@@ -204,19 +217,19 @@
                 </form>
                 <section class="brands">
                     <div class="brandsItem">
-                        <img src="styles/images/brands1.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brands1.jpg" alt="">
                     </div>
                     <div class="brandsItem">
-                        <img src="styles/images/brands2.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brands2.jpg" alt="">
                     </div>
                     <div class="brandsItem">
-                        <img src="styles/images/brand3.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brand3.jpg" alt="">
                     </div>
                     <div class="brandsItem">
-                        <img src="styles/images/brand4.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brand4.jpg" alt="">
                     </div>
                     <div class="brandsItem">
-                        <img src="styles/images/brand5.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brand5.jpg" alt="">
                     </div>
                 </section>
             </div>
@@ -227,7 +240,7 @@
             <div class="footerContainer">
                 <div class="overInfo">
                     <img src="styles/images/mainLogo.png" alt="over logo">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum ut neque adipisci corrupti? In, eligendi? Quia fuga ad asperiores!</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum ut neque adipisci corrupti? In, eligendi? Quia fuga ad asperiores!</p>
                     <p><span>Address</span>: 451 Fifth Avenue, 36th New York, NY 1011829</p>
                     <p><span>Phone</span>: +(1200) 445 441 221</p>
                     <p><span>Email</span>: creativewithjoy@gmail.com</p>

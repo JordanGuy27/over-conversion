@@ -16,10 +16,32 @@ body {
 }
 
 .wrapper {
-    max-width: 80%;
+    width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 img {
     max-width: 100%;
+}
+
+h1, h2, h4 {
+    font-weight: normal;
+}
+
+h2.style {
+ &::after{
+       content: '';
+       margin: 0 auto;
+       display: block;
+       width: 120px;
+       margin-top: 20px;
+       height: 2px;
+       background-image: linear-gradient(to right,
+       #a8edea,
+       #a8edea,
+       #f5efef,
+       #a8edea,
+       #a8edea);
+    }
 }

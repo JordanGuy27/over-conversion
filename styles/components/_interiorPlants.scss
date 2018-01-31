@@ -1,11 +1,12 @@
 .interiorPlants {
     padding: 40px 0;
+    position: relative;
     h5 {
         font-size: 18px;
         color: #a8edea;
         text-align: center;
         margin-bottom: 5px;
-
+        padding-top: 15px;
     }
     h2 {
         text-align: center;
@@ -52,12 +53,72 @@
 
 .imageContainer {
     width: 48%;
+    position: relative;
 }
 
 .imageContainer2 {
     width: 100%;
+    position: relative;
 }
 
 .cactusContainer {
     margin-right: 30px;
+    position: relative;
+}
+
+.picInfo {
+    text-align: center;
+    h4 {
+        margin: 0;
+        color: #1a1a26;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    p {
+        margin: 0;
+        color: #888890;
+        font-size: 13px;
+    }
+}
+
+.airPlants {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    h4:hover {
+        color: darken(#a8edea, 38);
+    }
+}
+
+.widePots {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    h4:hover {
+        color: darken(#a8edea, 38);
+    }
+}
+
+.officePlants, .housePlants {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    h4:hover {
+        color: darken(#a8edea, 38);
+    }
+}
+
+.plantsBackground {
+    background-image: url(../styles/images/h2background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }

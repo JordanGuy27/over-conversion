@@ -13,7 +13,7 @@
 }
 
 p.description {
-            margin-top: 35px;
+            margin-top: 25px;
             line-height: 26px;
             font-size: 14px;
             margin-bottom: 50px;
@@ -25,26 +25,67 @@ p.description {
     h4{
         font-size: 24px;
         color: #1a1a26;
+        width: 100%;
     }
+}
+
+.titleUnderline {
+    width: 40px;
+    height: 2px;
+    background-color: #a8edea;
+    margin-top: -10px;
+}
+
+.services .titleUnderline {
+    margin-top: -25px;
+}
+
+.account .titleUnderline {
+    margin-top: -20px;
+}
+
+.instagram .titleUnderline {
+    margin-top: -41px;
+    margin-bottom: 30px;
+}
+
     .servicesList, .accountList {
         padding: 0;
         li {
             list-style: none;
             line-height: 40px;
+            :hover {
+                color: #1a1a26;
+                border-bottom: 2px solid #1a1a26;
+            }
             a {
                 text-decoration: none;
                 color: #888890;
             }
         }
     }
+
+
+.services h4 {
+    margin-bottom: 32px;
+}
+
+.instagram h4 {
+    margin-bottom: 45px;
 }
 
 .footerAwesome {
     color: #888890;
     font-size: 25px;
+    padding-top: 18px;
     .fa {
         margin-right: 10px;
+        color: #888890;
     }
+}
+
+.fa:hover {
+    color: #1a1a26;
 }
 
 .footerContainer {
@@ -92,3 +133,14 @@ p.description {
 .trademark p {
         margin-left: 10px;
     }
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #888890;
+    margin: 40px 0;
+}
+
+footer {
+    margin-top: 20px;
+}

@@ -41,6 +41,9 @@
                         <li>
                             <a href="#">
                                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <div class="notification">
+                                    <img src="styles/images/notification.png" alt="">
+                                </div>
                             </a>
                         </li>
                     </div>
@@ -67,14 +70,27 @@
             <h3>Over Collections 2017</h3>
             <h1>Living &amp; Styling with Plants</h1>
             <button>Shop Now</button>
+            <div class="scroll">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </div>
         </div>
-        <!-- scroll at the bottoms and arrows on both sides of the hero image -->
+        <div class="arrowLeft">
+            <a href="http://leftarrow.com/"><img src="styles/images/arrowLeft.png" alt=""></a>
+        </div>
+        <div class="arrowRight">
+            <a href="http://rightarrow.com/"><img src="styles/images/arrowRight.png" alt=""></a>
+        </div>
     </header>
     <main>
         <div class="wrapper">
             <section class="interiorPlants">
-                <h5>Welcome to</h5>
-                <h2>Home of Interior Plants</h2>
+                <div class="plantsBackground">
+                    <h5>Welcome to</h5>
+                    <h2>Home of Interior Plants</h2>
+                </div>
                 <p>We are passionate about exotic indoor plants, we know them and always endeavor to precondition them so that you do not have many of the problems so oftn associated with indoor plants, after all we have a stock or thousands of plants and we have to know how to care for them.</p>
                 <p class="signature"><span>Jamie Brace</span> . Web Design</p>
             </section>
@@ -82,18 +98,42 @@
                 <div class="galleryContainer">
                     <div class="cactusContainer">
                         <img src="styles/images/plants1.svg" alt="a cactus">
+                       <a href="#">
+                            <div class="airPlants picInfo">
+                                <h4>Air Plants</h4>
+                                <p>12 items</p>
+                            </div>
+                       </a>
                     </div>
                     <div class="tripleContainer">
                         <div class="plantContainer">
                             <div class="imageContainer">
                                 <img src="styles/images/plants2.svg" alt="A hanging pot">
+                               <a href="#">
+                                    <div class="officePlants picInfo">
+                                        <h4>Office Plants</h4>
+                                        <p>38 items</p>
+                                    </div>
+                               </a>
                             </div>
                             <div class="imageContainer">
                                 <img src="styles/images/plants3.svg" alt="">
+                                <a href="#">
+                                    <div class="housePlants picInfo">
+                                        <h4>House Plants</h4>
+                                        <p>21 items</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="imageContainer2">
                             <img src="styles/images/plants4.svg" alt="">
+                            <a href="#">
+                                <div class="widePots picInfo">
+                                    <h4>Plant Container</h4>
+                                    <p>07 items</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +141,7 @@
         </div>
         <section class="products">
             <div class="wrapper">
-                <h2>Popular Products</h2>
+                <h2 class="style">Popular Products</h2>
                 <nav>
                     <ul class="popularProducts">
                         <li><a href="">New Arrivals</a></li>
@@ -111,52 +151,109 @@
                 </nav>
                 <div class="productsGallery">
                     <figure class="galleryItem">
-                        <img src="styles/images/products1.png" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products1.png" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img class="hot" src="styles/images/hot.png" alt="">
+                            <img src="styles/images/new.png" alt="" class="new">
+                        </div>
                         <figcaption>Pebbled Backpack</figcaption>
                         <p class="price">$99.00</p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products2.svg" alt="">
+                       <div class="overlayImage">
+                            <img src="styles/images/products2.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img src="styles/images/new.png" alt="" class="new2">
+                       </div>
                         <figcaption>Flower Print Dress</figcaption>
                         <p class="price">$52.00</p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products3.svg" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products3.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img src="styles/images/sale.png" alt="" class="sale">
+                        </div>
                         <figcaption>Printed Cotton T-shirt</figcaption>
                         <p class="price">$56.00 <span>$79.00</span></p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products4.png" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products4.png" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
                         <figcaption>Slim-fit Cotton T-shirt</figcaption>
                         <p class="price">$77.00</p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products5.svg" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products5.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img src="styles/images/sale.png" alt="" class="sale">
+                        </div>
                         <figcaption>Zip Leather Jacket</figcaption>
                         <p class="price">$178.00 <span>$199.00</span></p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products6.svg" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products6.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
                         <figcaption>Flower print dress</figcaption>
                         <p class="price">$98.00</p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products7.png" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products7.png" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img src="styles/images/hot.png" alt="" class="hot">
+                        </div>
                         <figcaption>Combined weekend bog</figcaption>
                         <p class="price">$88.00</p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products8.svg" alt="">
+                        <div class="overlayImage">
+                            <img src="styles/images/products8.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                            <img src="styles/images/sale.png" alt="" class="sale">
+                        </div>
                         <figcaption>Tortoiseshell retro sunglasses</figcaption>
                         <p class="price">$56.00 <span>$78.00</span></p>
                     </figure>
                     <figure class="galleryItem">
-                        <img src="styles/images/products9.svg" alt="">
+                       <div class="overlayImage">
+                            <img src="styles/images/products9.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                       </div>
                         <figcaption>Slim-fit Patrick jeans</figcaption>
                         <p class="price">$88.00</p>
                     </figure>
-                    <figure class="galleryItem">
-                        <img src="styles/images/products10.svg" alt="">
+                    <figure class="galleryItem lastGalleryItem">
+                        <div class="overlayImage">
+                            <img src="styles/images/products10.svg" alt="">
+                            <div class="overlay">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
                         <figcaption>Embroidered message cap</figcaption>
                         <p class="price">$178.00 <span>$199.00</span></p>
                     </figure>
@@ -178,12 +275,21 @@
                 </div>
             </div>
             <div class="video">
-                <!-- insert video file? -->
+                <div class="play">
+                    <a href="#">
+                        <div class="playButton">
+                            <img src="styles/images/play.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="plantsImg">
+                    <img src="styles/images/plants.png" alt="">
+                </div> -->
             </div>
         </section>
         <section class="blog">
             <div class="wrapper">
-                <h2>From Our Blog</h2>
+                <h2 class="style">From Our Blog</h2>
                 <div class="container">
                     <figure class="blogItem">
                         <img src="styles/images/blog1.png" alt="">
@@ -208,7 +314,7 @@
         </section>
         <section class="newsletter">
             <div class="wrapper">
-                <h2>Sign Up For Newsletter</h2>
+                <h2 class="style">Sign Up For Newsletter</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla dolorum dolores esse aperiam quisquam possimus quod suscipit similique. Itaque.</p>
                 <form class="email" action="">
                     <input type="email" placeholder="Enter your email">
@@ -220,7 +326,7 @@
                         <img class="lastBrand" src="styles/images/brands1.jpg" alt="">
                     </div>
                     <div class="brandsItem">
-                        <img class="lastBrand" src="styles/images/brands2.jpg" alt="">
+                        <img class="lastBrand" src="styles/images/brands2.png" alt="">
                     </div>
                     <div class="brandsItem">
                         <img class="lastBrand" src="styles/images/brand3.jpg" alt="">
@@ -236,6 +342,7 @@
         </section>
     </main>
     <footer>
+        <div class="divider"></div>
         <div class="wrapper">
             <div class="footerContainer">
                 <div class="overInfo">
@@ -246,15 +353,16 @@
                     <p><span>Email</span>: creativewithjoy@gmail.com</p>
                     <p><span>Skype</spa>: doodelys</p>
                     <div class="overInfo footerAwesome">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="services">
                     <h4>Services</h4>
+                    <div class="titleUnderline"></div>
                     <nav>
                         <ul class="servicesList">
                             <li>
@@ -280,6 +388,7 @@
                 </div>
                 <div class="account">
                     <h4>Your Account</h4>
+                    <div class="titleUnderline"></div>
                     <nav>
                         <ul class="accountList">
                             <li>
@@ -305,6 +414,7 @@
                 </div>
                 <div class="instagram">
                     <h4>Instagram</h4>
+                    <div class="titleUnderline"></div>
                     <div class="instagramContainer">
                         <div class="instagramItem">
                             <img src="styles/images/instagram1.jpg" alt="">
@@ -336,6 +446,7 @@
             </div>
         </div>
     </footer>
+    <div class="divider"></div>
     <div class="wrapper">
         <section class="postFooter">
             <div class="tradmarkItem">
@@ -345,7 +456,8 @@
                 <p>Any Questions? Let us help you. Call us: <span>+ (1200) 989 169 092</span></p>
             </div>
         </section>
-    <div>
+    </div>
+    <div class="divider"></div>
     </section> 
     <script src="https://use.fontawesome.com/9537b616cc.js"></script>
 </body>

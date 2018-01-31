@@ -32,18 +32,19 @@
     justify-content: space-between;
     .galleryItem {
         width: 18%;
-    }
+        }
         img {
             width: 100%;
         }   
         figcaption {
             font-size: 12px;
             text-align: center;
+            margin-top: 10px;
         }
         .price {
             text-align: center;
             padding-bottom: 20px;
-            margin: 10px;
+            margin-bottom: 10px;
             span {
                 margin-left: 20px;
                 color: #888890;
@@ -51,3 +52,79 @@
             }
         }
 }
+
+.galleryItem img {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    a {
+        padding: 10px 15px;
+        background-color: #fff;
+    }
+        a {
+            font-size: 14px;
+            color: #888890;
+            text-align: center;
+            vertical-align: center;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            background-color: #fff;
+        }
+
+}
+
+figure.galleryItem:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlayImage {
+    position: relative;
+    a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+    }
+}
+
+img.hot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15%;
+}
+
+img.new {
+    position: absolute;
+    width: 15%;
+    top: 25px;
+    right: 5px;
+}
+
+img.new2 {
+    position: absolute;
+    width: 15%;
+    top: 5px;
+    right: 5px;
+}
+
+img.sale {
+    position: absolute;
+    width: 15%;
+    top: 5px;
+    right: 5px;
+}
+

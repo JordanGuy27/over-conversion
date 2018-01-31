@@ -1,6 +1,7 @@
 header {
     background-image: url(../styles/images/hero.jpg);
-    min-height: 87vh;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .mainNav {
@@ -26,6 +27,22 @@ header {
         }
 }
 
+.scroll {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    color: #1d1d29;
+    margin-bottom: 5px;
+    .fa {
+        margin: 0 5px;
+        &:hover {
+            color: #888890;
+            transform: scale(1.5);
+        }
+    }
+}
+
 .mainNavItem {
     width: 40%;
 }
@@ -33,6 +50,16 @@ header {
 .mainRight {
     display: flex;
     justify-content: flex-end;
+}
+
+.notification {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.iconsRight li {
+    position: relative;
 }
 
 .mainLeft {
@@ -47,7 +74,8 @@ header {
 }
 
 .title {
-    padding: 150px 0; 
+    padding: 212px 0;
+    padding-bottom: 90px; 
 }
 
 .mainNav .fa {
@@ -72,7 +100,7 @@ header h1 {
 header button {
     background-color: #f07f84;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 30px;
     color: #fff;
     border-radius: 2px;
     text-transform: uppercase;
@@ -82,4 +110,18 @@ header button {
 
 button:hover {
     background-color: #e4565d;
+    box-shadow: 3px 3px darkgray;
+    
+}
+
+.arrowLeft {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+
+.arrowRight {
+    position: absolute;
+    right: 20px;
+    top: 50%;
 }

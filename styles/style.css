@@ -17,17 +17,15 @@ header {
       color: #888890; }
     .mainNav li a {
       text-decoration: none;
-      padding: 10px;
+      padding: 0 10px;
       color: #1a1a26;
       font-size: 14px; }
 
 .scroll {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
@@ -47,11 +45,9 @@ header {
 
 .mainRight {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
@@ -59,30 +55,27 @@ header {
   position: absolute;
   top: 0;
   right: 10px; }
+  .notification img {
+    max-width: 70%; }
 
 .iconsRight li {
   position: relative; }
 
 .mainLeft {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
 .flexHeader {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
@@ -91,7 +84,7 @@ header {
   padding-bottom: 90px; }
 
 .mainNav .fa {
-  padding: 10px;
+  padding: 0 10px;
   font-size: 14px; }
 
 header h3 {
@@ -150,7 +143,7 @@ p.description {
 
 .services, .account, .instagram {
   width: 20%;
-  font-size: 14px; }
+  font-size: 12px; }
   .services h4, .account h4, .instagram h4 {
     font-size: 24px;
     color: #1a1a26;
@@ -203,25 +196,20 @@ p.description {
 
 .footerContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .instagramContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
@@ -242,11 +230,9 @@ p.description {
 .postFooter {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   color: #888890;
@@ -296,36 +282,29 @@ footer {
 
 .galleryContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .tripleContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .plantContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .plantContainer img {
@@ -405,11 +384,9 @@ footer {
   .products .popularProducts {
     padding-left: 0;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   .products li {
@@ -426,14 +403,11 @@ footer {
 
 .productsGallery {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .productsGallery .galleryItem {
@@ -454,7 +428,8 @@ footer {
       text-decoration: line-through; }
 
 .galleryItem img {
-  position: relative; }
+  position: relative;
+  vertical-align: bottom; }
 
 .overlay {
   position: absolute;
@@ -549,12 +524,10 @@ img.sale {
     text-transform: uppercase; }
   .customerSaying .dotContainer {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     width: 50%;
     margin: 0 auto;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 20px 0; }
@@ -570,7 +543,6 @@ img.sale {
 .fullBleed {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
@@ -629,11 +601,9 @@ img.sale {
 .container {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .container .blogItem {
@@ -686,17 +656,17 @@ img.sale {
     right: 19.5%;
     border: none;
     background-color: #fff; }
+    .newsletter .email button.envelope:hover {
+      -webkit-box-shadow: 3px 3px 10px lightgray;
+      box-shadow: 3px 3px 10px lightgray; }
 
 .brands {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 80px 0; }
@@ -725,17 +695,15 @@ header {
       color: #888890; }
     .mainNav li a {
       text-decoration: none;
-      padding: 10px;
+      padding: 0 10px;
       color: #1a1a26;
       font-size: 14px; }
 
 .scroll {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
@@ -755,11 +723,9 @@ header {
 
 .mainRight {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
@@ -767,30 +733,27 @@ header {
   position: absolute;
   top: 0;
   right: 10px; }
+  .notification img {
+    max-width: 70%; }
 
 .iconsRight li {
   position: relative; }
 
 .mainLeft {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
 .flexHeader {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
@@ -799,7 +762,7 @@ header {
   padding-bottom: 90px; }
 
 .mainNav .fa {
-  padding: 10px;
+  padding: 0 10px;
   font-size: 14px; }
 
 header h3 {
@@ -858,7 +821,7 @@ p.description {
 
 .services, .account, .instagram {
   width: 20%;
-  font-size: 14px; }
+  font-size: 12px; }
   .services h4, .account h4, .instagram h4 {
     font-size: 24px;
     color: #1a1a26;
@@ -911,25 +874,20 @@ p.description {
 
 .footerContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .instagramContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
@@ -950,11 +908,9 @@ p.description {
 .postFooter {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   color: #888890;
@@ -1004,36 +960,29 @@ footer {
 
 .galleryContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .tripleContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .plantContainer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .plantContainer img {
@@ -1113,11 +1062,9 @@ footer {
   .products .popularProducts {
     padding-left: 0;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   .products li {
@@ -1134,14 +1081,11 @@ footer {
 
 .productsGallery {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .productsGallery .galleryItem {
@@ -1162,7 +1106,8 @@ footer {
       text-decoration: line-through; }
 
 .galleryItem img {
-  position: relative; }
+  position: relative;
+  vertical-align: bottom; }
 
 .overlay {
   position: absolute;
@@ -1257,12 +1202,10 @@ img.sale {
     text-transform: uppercase; }
   .customerSaying .dotContainer {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     width: 50%;
     margin: 0 auto;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 20px 0; }
@@ -1278,7 +1221,6 @@ img.sale {
 .fullBleed {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
@@ -1337,11 +1279,9 @@ img.sale {
 .container {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .container .blogItem {
@@ -1394,17 +1334,17 @@ img.sale {
     right: 19.5%;
     border: none;
     background-color: #fff; }
+    .newsletter .email button.envelope:hover {
+      -webkit-box-shadow: 3px 3px 10px lightgray;
+      box-shadow: 3px 3px 10px lightgray; }
 
 .brands {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 80px 0; }
@@ -1418,14 +1358,11 @@ img.sale {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center; }
     .container .blogItem {
@@ -1435,44 +1372,88 @@ img.sale {
   .brands {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center; }
     .brands .brandsItem img.lastBrand {
       min-width: 137px;
       margin-top: 20px; } }
 
-@media (max-width: 705px) {
-  .mainLeft {
-    -webkit-box-orient: vertical;
+@media (max-width: 611px) {
+  .productsGallery {
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column; }
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+    .productsGallery .galleryItem {
+      width: 47%; }
+    .productsGallery .lastGalleryItem {
+      display: initial; }
+  .products li {
+    margin: 0 8px; }
+    .products li a {
+      font-size: 14px; } }
+
+@media (max-width: 705px) {
   .flexHeader {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
   .mainRight {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .mainNavItemCenter img {
+    padding-top: 20px; }
+  .interiorPlants p {
+    width: 100%; }
+  .customerSaying p {
+    width: 100%; } }
+
+@media (max-width: 795px) {
+  .footerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footerContainer .overInfo {
+      text-align: center; }
+      .footerContainer .overInfo h4 {
+        font-size: 18px;
+        display: block;
+        margin: 0 auto;
+        width: 50%; }
+      .footerContainer .overInfo .titleUnderline {
+        margin: 0 auto; }
+    .footerContainer .footerAwesome {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .customerSaying h2 {
+    font-size: 28px; } }
+
+@media (max-width: 800px) {
+  .services, .account, .tradeMark {
+    display: none; }
+  .wrapper .footerContainer .overInfo {
+    width: 100%; } }
 
 @media (max-width: 845px) {
   .galleryContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .galleryContainer .imageContainer {
@@ -1486,38 +1467,46 @@ img.sale {
   .title h3 {
     font-size: 24px; } }
 
-@media (max-width: 941px) {
-  .mainLeft {
-    display: none; }
-  .brands {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: none; } }
-
 @media (max-width: 989px) {
   .fullBleed {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
+  .newsletter h2, .blog h2, .products h2, .interiorPlants h2 {
+    font-size: 26px; }
+  .postFooter {
+    font-size: 10px; }
+  .newsletter p {
+    width: 100%; }
+  .blog {
+    padding-bottom: 20px; }
+  .email input {
+    font-size: 14px; }
+  .blogItem h5 {
+    font-size: 15px; }
   .video {
     width: 100%; }
   .customerSaying {
-    width: 100%; } }
+    width: 100%; }
+  .instagram {
+    display: none; }
+  .servicesList li, .accountList li {
+    line-height: 30px; } }
+
+@media (max-width: 1000px) {
+  .mainLeft {
+    display: none; }
+  .brands {
+    display: none; } }
 
 @media (max-width: 1030px) {
   .productsGallery {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row; }
     .productsGallery .galleryItem {
@@ -1527,11 +1516,9 @@ img.sale {
   .postFooter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     width: 100%; }
@@ -1546,87 +1533,24 @@ img.sale {
   .galleryItem .price {
     font-size: 10px; } }
 
-@media (max-width: 611px) {
-  .productsGallery {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center; }
-    .productsGallery .galleryItem {
-      width: 47%; }
-    .productsGallery .lastGalleryItem {
-      display: initial; }
-  .products li {
-    margin: 0 8px; }
-    .products li a {
-      font-size: 14px; } }
-
 @media (max-width: 1378px) {
   .footerContainer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-    .footerContainer .overInfo {
-      width: 30%;
-      padding-bottom: 10px; }
     .footerContainer .services, .footerContainer .account, .footerContainer .instagram {
       width: 20%; }
       .footerContainer .services h4, .footerContainer .account h4, .footerContainer .instagram h4 {
         font-size: 19px; }
+    .footerContainer .overInfo {
+      width: 30%; }
     .footerContainer .footerAwesome {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; } }
-
-@media (max-width: 1055px) {
-  .flexContainer {
-    width: 100%; }
-    .flexContainer .overInfo, .flexContainer .services, .flexContainer .account, .flexContainer .instagram {
-      width: 45%; } }
-
-@media (max-width: 795px) {
-  .footerContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    .footerContainer .overInfo, .footerContainer .services, .footerContainer .account {
-      width: 100%;
-      text-align: center; }
-      .footerContainer .overInfo h4, .footerContainer .services h4, .footerContainer .account h4 {
-        font-size: 18px;
-        display: block;
-        margin: 0 auto;
-        width: 50%; }
-      .footerContainer .overInfo .titleUnderline, .footerContainer .services .titleUnderline, .footerContainer .account .titleUnderline {
-        margin: 0 auto; }
-    .footerContainer .instagram {
-      display: none; }
-    .footerContainer .footerAwesome {
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-  .customerSaying h2 {
-    font-size: 28px; } }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }

@@ -32,6 +32,9 @@
             right: 19.5%;
             border: none;
             background-color: #fff;
+            &:hover {
+                box-shadow: 3px 3px 10px lightgray;
+            }
         }
     }
 }

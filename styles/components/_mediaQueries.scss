@@ -14,7 +14,7 @@
         .blogItem {
             width: 100%;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 40px; 
         }
     }
     .brands {
@@ -27,15 +27,77 @@
     }
 }
 
-@media (max-width: 705px) {
-    .mainLeft {
-        flex-direction: column;
+@media (max-width: 611px) {
+    .productsGallery {
+        flex-direction: row;
+        align-content: center;
+        .galleryItem {
+            width: 47%;
+        }
+        .lastGalleryItem {
+            display: initial;
+        }
     }
+    .products {
+        li {
+            margin: 0 8px; 
+            a {
+            font-size: 14px;
+        } 
+    }
+}
+}
+
+@media (max-width: 705px) {
     .flexHeader {
         flex-direction: column;
     }
     .mainRight {
         justify-content: center;
+    }
+    .mainNavItemCenter img {
+        padding-top: 20px;
+    }
+    .interiorPlants p {
+        width: 100%;
+    }
+    .customerSaying p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 795px) {
+    .footerContainer {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        .overInfo{
+            text-align: center;
+            h4 {
+                font-size: 18px;
+                display: block;
+                margin: 0 auto;
+                width: 50%;
+            }
+            .titleUnderline {
+                margin: 0 auto;
+            }
+        }
+        .footerAwesome {
+            justify-content: center;
+        }
+    }
+    .customerSaying h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 800px) {
+    .services, .account, .tradeMark {
+        display: none;
+    }
+    .wrapper .footerContainer .overInfo{
+        width: 100%;
     }
 }
 
@@ -61,26 +123,49 @@
     }
 }
 
-@media (max-width: 941px) {
-    .mainLeft {
-        display: none;
-    }
-    .brands {
-        flex-direction: column;
-        display: none;
-    }
-}
-
 @media (max-width: 989px) {
     .fullBleed {
         display: flex;
         flex-direction: column;
+    }
+    .newsletter h2, .blog h2, .products h2, .interiorPlants h2 {
+        font-size: 26px;
+    }
+    .postFooter {
+        font-size: 10px;
+    }
+    .newsletter p {
+        width: 100%;
+    }
+    .blog {
+        padding-bottom: 20px;
+    }
+    .email input {
+        font-size: 14px;
+    }
+    .blogItem h5 {
+        font-size: 15px;
     }
     .video {
         width: 100%;
     }
     .customerSaying {
         width: 100%;
+    }
+    .instagram {
+        display: none;
+    }
+    .servicesList li, .accountList li {
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mainLeft {
+        display: none;
+    }
+    .brands {
+        display: none;
     }
 }
 
@@ -118,83 +203,23 @@
     }
 }
 
-@media (max-width: 611px) {
-    .productsGallery {
-        flex-direction: row;
-        align-content: center;
-        .galleryItem {
-            width: 47%;
-        }
-        .lastGalleryItem {
-            display: initial;
-        }
-    }
-    .products {
-        li {
-            margin: 0 8px; 
-            a {
-            font-size: 14px;
-        } 
-    }
-}
-}
 
 @media (max-width: 1378px) {
     .footerContainer {
         flex-direction: row;
         flex-wrap: wrap;
-        .overInfo {
-            width: 30%;
-            padding-bottom: 10px;
-        }
         .services, .account, .instagram {
             width: 20%;
             h4 {
                 font-size: 19px;
             }
         }
+        .overInfo {
+            width: 30%;
+        }
         .footerAwesome {
             display: flex;
         }
 }
-}
-
-@media (max-width: 1055px) {
-    .flexContainer {
-        width: 100%;
-        .overInfo, .services, .account, .instagram {
-            width: 45%;
-        }
-    }
-}
-
-@media (max-width: 795px) {
-    .footerContainer {
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        .overInfo, .services, .account {
-            width: 100%;
-            text-align: center;
-            h4 {
-                font-size: 18px;
-                display: block;
-                margin: 0 auto;
-                width: 50%;
-            }
-            .titleUnderline {
-                margin: 0 auto;
-            }
-        }
-        .instagram {
-            display: none;
-        }
-        .footerAwesome {
-            justify-content: center;
-        }
-    }
-    .customerSaying h2 {
-        font-size: 28px;
-    }
 }
 

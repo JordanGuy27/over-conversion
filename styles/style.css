@@ -1476,6 +1476,8 @@ img.sale {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
+  .customerSaying .dotContainer {
+    display: none; }
   .newsletter h2, .blog h2, .products h2, .interiorPlants h2 {
     font-size: 26px; }
   .postFooter {
